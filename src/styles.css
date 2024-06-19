@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 48px;
+  background-color: #052849;
+}
+
+#cards_wrapper {
+  max-width: 100%;
+}
+
+#sl_logo {
+  height: 20px;
+  margin: 14px;
+}
+
+main {
+  padding: 48px 12px;
+  background-color: #f6f8fa;
+}
+
+img.card-img-top {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+div.hstack {
+  align-items: flex-start;
+}
+
+div.card_area {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0), 0 3px 10px 5px rgba(0, 0, 0, 0.03) !important;
+  border: none;
+}
+
+#product_info {
+  padding: 12px 0;
+  height: 100%;
+}
+
+.card-title, .card-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  width: 80%;
+}
+
+div.card-body {
+  padding: 0;
+}
+
+.card-text, td {
+  color: #b6c0d0;
+}
+
+.card-text, span.p-column-title, tbody.p-datatable-tbody {
+  font-size: 11px;
+}
+
+#tags_area {
+  padding: 8px 16px;
+  border-top: 1px solid #f6f8fa;
+  border-bottom: 1px solid #f6f8fa;
+}
+
+.tag {
+  font-weight: bold;
+  margin: 4px;
+  padding: 2px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  display: inline-block;
+  border-color: #b6c0d0;
+}
+
+.tag, #graph_title {
+  font-size: 12px;
+}
+
+#graph_title {
+  color: #554a55;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+th:not(:first-child) .p-column-header-content {
+  justify-content: right;
+}
+
+tr[role="row"] {
+  border-bottom-width: 1px;
+  border-color: #f6f8fa;
+}
+
+td:not(:first-child) {
+  padding: 8px 36px 8px 8px;
+  text-align: right;
+}
+
+svg.p-icon.p-sortable-column-icon {
+  margin-left: 8px;
+}
+
+span[data-pc-section="sort"] {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-down-512.png");
+}
+
+th[aria-sort="ascending"].p-highlight span[data-pc-section="sort"] {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-down-512.png");
+}
+
+th[aria-sort="descending"].p-highlight span[data-pc-section="sort"] {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/general-ui-outlined-thick/24/chevron-up-512.png");
+}
+
+svg.p-icon.p-sortable-column-icon {
+  opacity: 0;
+}
+
+th, td {
+  padding: 8px 16px 8px 24px;
+}
+
+th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.p-column-title, #tags_area .tag {
+  color: #6d5c72;
+}
